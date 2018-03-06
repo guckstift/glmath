@@ -93,7 +93,7 @@ vec2.sqdist = function(a, b)
 vec2.vec3 = function(v, f)
 {
 	return vec3(v[0], v[1], f);
-}
+};
 
 function vec3(x, y, z)
 {
