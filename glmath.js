@@ -82,6 +82,22 @@ function vec2(x, y)
 	return new Float32Array([x, y]);
 }
 
+vec2.add = function(a, b)
+{
+	return [
+		a[0] + b[0],
+		a[1] + b[1],
+	];
+};
+
+vec2.mul = function(a, b)
+{
+	return [
+		a[0] * b[0],
+		a[1] * b[1],
+	];
+};
+
 vec2.sqdist = function(a, b)
 {
 	var x = b[0] - a[0];
